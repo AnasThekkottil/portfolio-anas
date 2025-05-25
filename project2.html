@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Details - Muhammed Anas</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- AOS (Animate on Scroll) CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <link href="pro.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <a href="index.html" class="back-btn">← Back to Portfolio</a>
+        </div>
+    </header>
+
+    <!-- Project Hero -->
+    <section class="project-hero2">
+        <div class="project-hero2-content" data-aos="fade-up">
+            <h1>MY PRIVACY MY DECISION</h1>
+            <!-- <p>An AI-driven web application using computer vision to prevent unauthorized image use and screenshots, with a request-sharing system ensuring user approval for enhanced photo privacy.</p> -->
+        </div>
+    </section>
+
+    <!-- Project Details -->
+    <section class="project-details">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-12" data-aos="fade-right">
+                    <div class="detail-card">
+                        <h3>Project Overview</h3>
+                        <p>My Privacy My Decision is a secure web-based social media platform designed to prioritize user privacy in photo sharing. Developed using Java, MySQL, HTML/CSS, JavaScript, and OpenCV for face detection and recognition, the platform ensures users maintain control over their photos and personal data.</p>
+                        <p>When a user uploads a photo as part of a post, the system employs Haar cascade-based face detection to identify faces and matches them against a database of trained facial data. If recognized individuals are detected, the system notifies them and requires their approval before the post is made public, ensuring explicit consent for photo sharing. This enhances user privacy by preventing unauthorized sharing of images containing their likeness.</p>
+                        <p>The system includes:</p>
+                        <ul>
+                            <li>User Registration/Login</li>
+                            <li>Face Detection and Recognition</li>
+                            <li>Post Creation with image upload</li>
+                            <li>Approval/Notification System</li>
+                            <li>Privacy Controls</li>
+                            <li>Admin Panel for user and post management</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6" data-aos="fade-up">
+                    <div class="detail-card">
+                        <h3>Technologies Used</h3>
+                        <h4>Frontend:</h4>
+                        <ul>
+                            <li>HTML5, CSS 3</li>
+                            <li>JavaScript for interactivity</li>
+                            <li>Bootstrap for responsive design</li>
+                        </ul>
+
+                        <h4>Backend:</h4>
+                        <ul>
+                            <li>Server-Side Logic (JSP and Java Servlets)</li>
+                            <li>Face Detection and Recognition (OpenCV,Haar cascade file ,K-Means clustering )</li>
+                            <li>MySQL for database management</li>
+                        </ul>
+
+                        <h4>Libraries & Tools:</h4>
+                        <ul>
+                            <li>OpenCV for image handling and face cropping</li>
+                            <li>Apache Commons FileUpload</li>
+                            <li>Java Database Connectivity (JDBC)</li>
+                            <li>Java RMI (Remote Method Invocation)</li>
+                            <li>CBIR (Content-Based Image Retrieval) Libraries </li>
+                        </ul>
+
+                        <h4>Security & Privacy:</h4>
+                        <ul>
+                            <li>Face-based post approval system</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6" data-aos="fade-up">
+                    <div class="detail-card">
+                        <h3>Key Features</h3>
+                        <p>Features include user registration/login, photo uploading with granular privacy controls, and an approval/notification system that alerts users when they are detected in photos, requiring their consent before posts go public. The platform employs Haar cascade-based face detection to crop and store facial data, using K-Means clustering for recognition, while ensuring secure storage with encryption and access controls. Built with NetBeans 8.0.2 and deployed on GlassFish Server, it offers an admin panel for user and content management, providing a robust, user-friendly solution for privacy-conscious photo sharing.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Snapshot Gallery -->
+    <section class="snapshot-gallery">
+        <div class="container">
+            <h2 class="text-center mb-5" data-aos="fade-up">Project Snapshots</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item" data-image="images/primi/index.png" data-caption="Index Page" data-aos="zoom-in">
+                    <img src="images/primi/index.png" alt="Snapshot 1">
+                    <div class="gallery-overlay">
+                        <span>Index Page</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-image="images/primi/Train.png" data-caption="Training " data-aos="zoom-in">
+                    <img src="images/primi/Train.png" alt="Snapshot 1">
+                    <div class="gallery-overlay">
+                        <span>Training</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-image="images/primi/settings.png" data-caption="Settings" data-aos="zoom-in" data-aos-delay="100">
+                    <img src="images/primi/settings.png" alt="Snapshot 2">
+                    <div class="gallery-overlay">
+                        <span>Settings</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-image="images/primi/author.png" data-caption="Author profile" data-aos="zoom-in" data-aos-delay="200">
+                    <img src="images/primi/author.png" alt="Snapshot 3">
+                    <div class="gallery-overlay">
+                        <span>Author profile</span>
+                    </div>
+                </div>
+                 <div class="gallery-item" data-image="images/primi/change password.png" data-caption="Change Password" data-aos="zoom-in" data-aos-delay="200">
+                    <img src="images/primi/change password.png" alt="Snapshot 3">
+                    <div class="gallery-overlay">
+                        <span>Change Password</span>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- Image Modal -->
+    <div class="image-modal">
+        <div class="modal-content">
+            <button class="modal-close">&times;</button>
+            <img src="" alt="Full Image">
+            <div class="modal-caption"></div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>© 2025 Muhammed Anas. All Rights Reserved.</p>
+            <div class="mt-3">
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <!-- AOS JS -->
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        // Initialize AOS
+        AOS.init({
+            duration: 1000,
+            once: true,
+        });
+
+        // Image fallback
+        document.querySelectorAll('img').forEach(img => {
+            img.onerror = function () {
+                this.src = 'https://via.placeholder.com/1920x1080?text=Image+Not+Found';
+            };
+        });
+
+        // Dynamic back button
+        const backBtn = document.querySelector('.back-btn');
+        backBtn.addEventListener('click', (e) => {
+            e.preventDefault();
+            window.history.back();
+        });
+
+        // Image pop-up modal
+        const modal = document.querySelector('.image-modal');
+        const modalImg = modal.querySelector('.modal-content img');
+        const modalCaption = modal.querySelector('.modal-caption');
+        const modalClose = modal.querySelector('.modal-close');
+        const galleryItems = document.querySelectorAll('.gallery-item');
+
+        galleryItems.forEach(item => {
+            item.addEventListener('click', (e) => {
+                e.preventDefault();
+                const imgSrc = item.dataset.image;
+                const caption = item.dataset.caption;
+                const rect = item.getBoundingClientRect();
+
+                // Set modal content
+                modalImg.src = imgSrc;
+                modalCaption.textContent = caption;
+
+                // Position modal content at card's location
+                const modalContent = modal.querySelector('.modal-content');
+                modalContent.style.position = 'absolute';
+                modalContent.style.top = `${rect.top + window.scrollY}px`;
+                modalContent.style.left = `${rect.left}px`;
+                modalContent.style.width = `${rect.width}px`;
+                modalContent.style.height = `${rect.height}px`;
+
+                // Show modal
+                modal.classList.add('active');
+
+                // Animate to full size after a brief delay
+                setTimeout(() => {
+                    modalContent.style.position = 'relative';
+                    modalContent.style.top = 'auto';
+                    modalContent.style.left = 'auto';
+                    modalContent.style.width = 'auto';
+                    modalContent.style.height = 'auto';
+                }, 50);
+            });
+        });
+
+        // Close modal
+        modalClose.addEventListener('click', () => {
+            modal.classList.remove('active');
+        });
+
+        modal.addEventListener('click', (e) => {
+            if (e.target === modal) {
+                modal.classList.remove('active');
+            }
+        });
+
+        // Touch support for mobile
+        galleryItems.forEach(item => {
+            item.addEventListener('touchstart', (e) => {
+                e.preventDefault();
+                item.click();
+            });
+        });
+    </script>
+</body>
+</html>

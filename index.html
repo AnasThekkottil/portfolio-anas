@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Muhammed Anas</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- Typed.js CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <!-- GSAP for animations -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#hero">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div id="particles-js"></div>
+        <div class="hero-content">
+            <h1>Hi, I'm Muhammed Anas</h1>
+            <p>I'm a <span class="typed-text"></span></p>
+            <a href="#contact" class="btn btn-customa">Get in Touch</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h2 class="text-center mb-5">About Me</h2>
+            <div class="row align-items-center">
+                <div class="col-md-6 mb-4">
+                    <div class="about-img"></div>
+                </div>
+                <div class="col-md-6">
+                    <p>"I am a passionate web developer and MCA graduate with a strong foundation in full-stack development. I have hands-on experience with technologies like Python, Flask, HTML, CSS, JavaScript, Java and MySQL. I’m particularly interested in building secure and user-friendly web applications and continuously learning about emerging technologies like AI and data privacy.</p>
+                    <p> As a fresher, I am eager to apply my knowledge and enthusiasm to real-world challenges and contribute meaningfully to innovative development teams.</p>
+                    <a href="#portfolio" class="btn btn-custom mt-3">View My Work</a>
+                    <!-- <a href="C:\Users\moham\OneDrive\Documents\portfolio 2\images\anasresume.pdf" class="btn btn-custom mt-3">Download Resume</a> -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="py-5 bg-white">
+        <div class="container">
+            <h2 class="text-center mb-5">Education</h2>
+            <div class="timeline p-3">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h5>MCA - Master of Computer Applications</h5>
+                        <p class="text-muted mb-1">Bengaluru City University | 2023 – current</p>
+                        <p>Focused on web technologies, AI-based systems, and full-stack development.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h5>Bachelors of Computer Applications</h5>
+                        <p class="text-muted mb-1">Ideal College For Adavanced Studies| 2020 – 2023</p>
+                        <p>Developed strong foundations in programming, algorithms, and databases.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio">
+        <div class="container">
+            <h2 class="text-center mb-5">Projects</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="portfolio-card">
+                        <img src="images/imag.jpg" alt="Project 1">
+                        <div class="p-3">
+                            <h5>MY PRIVACY MY DECISION</h5>
+                            <p>Developed a web application to prevent unauthorized image sharing on social media using computer vision and image recognition. Implemented a user consent system, ensuring posts go public only with approval. Collaborated on design and development to enhance social privacy.</p>
+                            <a href="project2.html" class="btn btn-custom">View Project</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="portfolio-card">
+                        <img src='images/mylogo-no-bg.png' alt="Project 2">
+                        <div class="p-3">
+                            <h5>AI Powered Photo Privacy in Social Media</h5>
+                            <p>Advanced web application leveraging computer vision and image recognition to prevent unauthorized image use, including screenshot analysis. Introduced a request-sharing system for user approval before sharing, enhancing control over photo privacy.</p>
+                            <a href="project1.html" class="btn btn-custom">View Project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">Contact Me</h2>
+            <div class="row">
+                <div class="col-md-5 mb-4">
+                    <div class="contact-info-modern p-4 rounded-4 shadow-sm bg-white border-start border-5 border-primary  h-100">
+                        <h4 class="mb-4 text-primary"><i class="bi bi-person-lines-fill me-2"></i> Contact Information</h4>
+                        <ul class="list-unstyled mb-0">
+                            <li class="mb-3 d-flex align-items-start">
+                                <i class="bi bi-envelope-fill text-primary   me-3 fs-5"></i>
+                                <div class="text-break">
+                                    <strong>Email:</strong><br>
+                                    <a href="mailto:mohammedanas@thekkottil@gmail.com">mohammedanas@thekkottil@gmail.com</a>
+                                </div>
+                            </li>
+                            <li class="mb-3 d-flex align-items-start">
+                                <i class="bi bi-telephone-fill text-success me-3 fs-5"></i>
+                                <div>
+                                    <strong>Phone:</strong><br>
+                                    <a href="tel:+919876543210">+91 8113818660</a>
+                                </div>
+                            </li>
+                            
+                            <li class="mb-3 d-flex align-items-start">
+                                <i class="bi bi-geo-alt-fill text-danger me-3 fs-5"></i>
+                                <div>
+                                    <strong>Location:</strong><br>
+                                    Bengaluru, Karnataka, India
+                                </div>
+                            </li>
+                            <li class="mb-3 d-flex align-items-start">
+                                <i class="bi bi-clock-fill text-success me-3 fs-5"></i>
+                                <div>
+                                    <strong>Availability:</strong><br>
+                                    Open for freelance & full-time roles
+                                </div>
+                            </li>
+                            <li class="mt-4">
+                                <strong>Connect with me:</strong>
+                                <div class="mt-2 d-flex gap-3">
+                                    <a href="https://www.linkedin.com/in/muhammed-anas-thekkottil-32a1b3232/" target="_blank" class="icon-link rounded-circle">
+                                        <i class="bi bi-linkedin"></i>
+                                    </a>
+                                    <a href="https://github.com/AnasThekkottil" target="_blank" class="icon-link rounded-circle">
+                                        <i class="bi bi-github"></i>
+                                    </a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-7">
+                    <form>
+                        <div class="mb-3">
+                            <input type="text" class="form-control" placeholder="Your Name" required>
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" class="form-control" placeholder="Your Email" required>
+                        </div>
+                        <div class="mb-3">
+                            <input type="number" class="form-control" placeholder="Your Phone" required>
+                        </div>
+                        <div class="mb-3">
+                            <textarea class="form-control" rows="5" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button class="btn btn-custom w-100" type="submit">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>© 2025 Muhammed Anas. All Rights Reserved.</p>
+            <div class="mt-3">
+                <a href="https://github.com/yourusername" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://linkedin.com/in/yourusername" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://twitter.com/yourusername" target="_blank"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script>
+        // Typed.js for animated text
+        const typed = new Typed('.typed-text', {
+            strings: ['Web Developer', 'Full Stack Developer', 'Designer','Software Developer '],
+            typeSpeed: 80,
+            backSpeed: 50,
+            backDelay: 1000,
+            loop: true
+        });
+
+        // Particles.js configuration
+        particlesJS('particles-js', {
+            particles: {
+                number: { value: 100, density: { enable: true, value_area: 800 } },
+                color: { value: '#ff8d0a' },
+                shape: { type: 'polygon', stroke: { width: 0 }, polygon: { nb_sides: 5 } },
+                opacity: { value: 0.3, random: true, anim: { enable: true, speed: 1, opacity_min: 0.1 } },
+                size: { value: 4, random: true, anim: { enable: false } },
+                line_linked: { enable: true, distance: 150, color: '#ff8d0a', opacity: 0.2, width: 1.5 },
+                move: { enable: true, speed: 4, direction: 'none', random: true, straight: false, out_mode: 'out' }
+            },
+            interactivity: {
+                detect_on: 'canvas',
+                events: { onhover: { enable: true, mode: 'grab' }, onclick: { enable: true, mode: 'push' }, resize: true },
+                modes: { grab: { distance: 200, line_linked: { opacity: 1 } }, push: { particles_nb: 4 } }
+            },
+            retina_detect: true
+        });
+
+        // GSAP Animations
+        gsap.from('.navbar', { y: -100, opacity: 0, duration: 1, ease: 'power3.out' });
+        gsap.from('.hero-content h1', { opacity: 0, y: 50, duration: 1.2, delay: 0.5, ease: 'power3.out' });
+        gsap.from('.hero-content p', { opacity: 0, y: 50, duration: 1.2, delay: 0.8, ease: 'power3.out' });
+        gsap.from('.btn-customa', { opacity: 0, scale: 0.8, duration: 1, delay: 1.2, ease: 'elastic.out(1, 0.5)' });
+
+        // Scroll-triggered animations
+        gsap.utils.toArray('.timeline-item, .portfolio-card').forEach(item => {
+            gsap.from(item, {
+                scrollTrigger: {
+                    trigger: item,
+                    start: 'top 80%',
+                    toggleActions: 'play none none reverse'
+                },
+                opacity: 0,
+                y: 50,
+                duration: 1,
+                ease: 'power3.out'
+            });
+        });
+
+        // Smooth scrolling
+        document.querySelectorAll('.nav-link').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href').substring(1);
+                const targetElement = document.getElementById(targetId);
+                window.scrollTo({
+                    top: targetElement.offsetTop - 70,
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Image fallback
+        document.querySelectorAll('img').forEach(img => {
+            img.onerror = function () {
+                this.src = 'https://via.placeholder.com/600x400?text=Image+Not+Found';
+            };
+        });
+
+        // Parallax effect on hero section
+        window.addEventListener('scroll', () => {
+            const hero = document.querySelector('#hero');
+            const scrollPosition = window.pageYOffset;
+            hero.style.backgroundPositionY = `${scrollPosition * 0.5}px`;
+        });
+
+        // Hover effect for portfolio cards
+        document.querySelectorAll('.portfolio-card').forEach(card => {
+            card.addEventListener('mousemove', (e) => {
+                const rect = card.getBoundingClientRect();
+                const x = e.clientX - rect.left;
+                const y = e.clientY - rect.top;
+                card.style.setProperty('--mouse-x', `${x}px`);
+                card.style.setProperty('--mouse-y', `${y}px`);
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Details - Muhammed Anas</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- AOS (Animate on Scroll) CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <link href="pro.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <a href="index.html" class="back-btn">← Back to Portfolio</a>
+        </div>
+    </header>
+
+    <!-- Project Hero -->
+    <section class="project-hero">
+        <div class="project-hero-content" data-aos="fade-up">
+            <h1>Ai Powered Photo <br>Privacy in Social Media</h1>
+            <!-- <p>An AI-driven web application using computer vision to prevent unauthorized image use and screenshots, with a request-sharing system ensuring user approval for enhanced photo privacy.</p> -->
+        </div>
+    </section>
+
+    <!-- Project Details -->
+    <section class="project-details">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-12" data-aos="fade-right">
+                    <div class="detail-card">
+                        <h3>Project Overview</h3>
+                        <p>AI-Powered Photo Privacy in Social Media is a privacy-focused web application that enhances the way photos are shared on social platforms. Built using Flask, MySQL, and AI-based face recognition, this project allows users to maintain control over their appearance in photos posted by others.</p>
+                        <p>When a user uploads an image as part of a post, the system automatically uses face detection and recognition to identify individuals in the photo by comparing them with previously trained facial data. If any recognized users are found in the image, they are notified and asked for approval before the post is made public. This ensures that no one’s photo is shared without their explicit consent.</p>
+                        <p>The system includes:</p>
+                        <ul>
+                            <li>User Registration/Login</li>
+                            <li>Face Training (via webcam or manual upload)</li>
+                            <li>Post Creation with image upload</li>
+                            <li>AI-Based Face Detection & Matching</li>
+                            <li>Approval/Notification System</li>
+                            <li>Admin Panel for user and post management</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6" data-aos="fade-up">
+                    <div class="detail-card">
+                        <h3>Technologies Used</h3>
+                        <h4>Frontend:</h4>
+                        <ul>
+                            <li>HTML5, CSS 3</li>
+                            <li>JavaScript for interactivity</li>
+                            <li>Bootstrap for responsive design</li>
+                        </ul>
+
+                        <h4>Backend:</h4>
+                        <ul>
+                            <li>Python (Flask Framework)</li>
+                            <li>Face detection and recognition using face_recognition and Dlib</li>
+                            <li>MySQL for database management</li>
+                        </ul>
+
+                        <h4>Libraries & Tools:</h4>
+                        <ul>
+                            <li>OpenCV for image handling and face cropping</li>
+                            <li>Secure user authentication using Flask sessions</li>
+                            <li>Jinja2 templating engine</li>
+                            <li>AJAX and JavaScript for dynamic content updates</li>
+                        </ul>
+
+                        <h4>Security & Privacy:</h4>
+                        <ul>
+                            <li>Face-based post approval system</li>
+                            <li>Notification-based share approval</li>
+                            <li>Screenshot prevention logic</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6" data-aos="fade-up">
+                    <div class="detail-card">
+                        <h3>Key Features</h3>
+                        <p>Features includes secure user authentication, enabling users to manage their profiles, update personal information, and upload profile pictures. Users can create image and text posts, which are automatically scanned for faces using AI-based face detection. Recognized faces are matched against trained data, and the system sends approval notifications to the identified users. Posts are only published publicly after receiving consent from all detected users. Users can train their faces via manual image uploads or live webcam capture. The platform includes robust notification and approval systems for both face detection and post sharing, ensuring that any content sharing requires the original poster’s approval. Additionally, screenshot and screen recording protection is implemented to prevent unauthorized capture of content. An admin panel allows management of users, posts, and face data. Built with Flask, MySQL, Bootstrap, and AI libraries like face_recognition, the system delivers a secure, user-controlled, and privacy-first social media experience.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Snapshot Gallery -->
+    <section class="snapshot-gallery">
+        <div class="container">
+            <h2 class="text-center mb-5" data-aos="fade-up">Project Snapshots</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item" data-image="images/ai powered/index.png" data-caption="Index Page" data-aos="zoom-in">
+                    <img src="images/ai powered/index.png" alt="Snapshot 1">
+                    <div class="gallery-overlay">
+                        <span>Index Page</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-image="images/ai powered/train face.png" data-caption="Train face" data-aos="zoom-in" data-aos-delay="100">
+                    <img src="images/ai powered/train face.png" alt="Snapshot 2">
+                    <div class="gallery-overlay">
+                        <span>Train face</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-image="images/ai powered/live capture.png" data-caption="Live Training" data-aos="zoom-in" data-aos-delay="200">
+                    <img src="images/ai powered/live capture.png" alt="Snapshot 3">
+                    <div class="gallery-overlay">
+                        <span>Live Training</span>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-image="images/ai powered/manuel train.png" data-caption="Manuel Training" data-aos="zoom-in">
+                    <img src="images/ai powered/manuel train.png" alt="Snapshot 1">
+                    <div class="gallery-overlay">
+                        <span>Manuel Training</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-image="images/ai powered/notification.png" data-caption="Notification Page" data-aos="zoom-in" data-aos-delay="100">
+                    <img src="images/ai powered/notification.png" alt="Snapshot 2">
+                    <div class="gallery-overlay">
+                        <span>Notification Page</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-image="images/ai powered/account details.png" data-caption="Account Details" data-aos="zoom-in" data-aos-delay="200">
+                    <img src="images/ai powered/account details.png" alt="Snapshot 3">
+                    <div class="gallery-overlay">
+                        <span>Account Details</span>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- Image Modal -->
+    <div class="image-modal">
+        <div class="modal-content">
+            <button class="modal-close">&times;</button>
+            <img src="" alt="Full Image">
+            <div class="modal-caption"></div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>© 2025  Muhammed Anas. All Rights Reserved.</p>
+            <div class="mt-3">
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <!-- AOS JS -->
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        // Initialize AOS
+        AOS.init({
+            duration: 1000,
+            once: true,
+        });
+
+        // Image fallback
+        document.querySelectorAll('img').forEach(img => {
+            img.onerror = function () {
+                this.src = 'https://via.placeholder.com/1920x1080?text=Image+Not+Found';
+            };
+        });
+
+        // Dynamic back button
+        const backBtn = document.querySelector('.back-btn');
+        backBtn.addEventListener('click', (e) => {
+            e.preventDefault();
+            window.history.back();
+        });
+
+        // Image pop-up modal
+        const modal = document.querySelector('.image-modal');
+        const modalImg = modal.querySelector('.modal-content img');
+        const modalCaption = modal.querySelector('.modal-caption');
+        const modalClose = modal.querySelector('.modal-close');
+        const galleryItems = document.querySelectorAll('.gallery-item');
+
+        galleryItems.forEach(item => {
+            item.addEventListener('click', (e) => {
+                e.preventDefault();
+                const imgSrc = item.dataset.image;
+                const caption = item.dataset.caption;
+                const rect = item.getBoundingClientRect();
+
+                // Set modal content
+                modalImg.src = imgSrc;
+                modalCaption.textContent = caption;
+
+                // Position modal content at card's location
+                const modalContent = modal.querySelector('.modal-content');
+                modalContent.style.position = 'absolute';
+                modalContent.style.top = `${rect.top + window.scrollY}px`;
+                modalContent.style.left = `${rect.left}px`;
+                modalContent.style.width = `${rect.width}px`;
+                modalContent.style.height = `${rect.height}px`;
+
+                // Show modal
+                modal.classList.add('active');
+
+                // Animate to full size after a brief delay
+                setTimeout(() => {
+                    modalContent.style.position = 'relative';
+                    modalContent.style.top = 'auto';
+                    modalContent.style.left = 'auto';
+                    modalContent.style.width = 'auto';
+                    modalContent.style.height = 'auto';
+                }, 50);
+            });
+        });
+
+        // Close modal
+        modalClose.addEventListener('click', () => {
+            modal.classList.remove('active');
+        });
+
+        modal.addEventListener('click', (e) => {
+            if (e.target === modal) {
+                modal.classList.remove('active');
+            }
+        });
+
+        // Touch support for mobile
+        galleryItems.forEach(item => {
+            item.addEventListener('touchstart', (e) => {
+                e.preventDefault();
+                item.click();
+            });
+        });
+    </script>
+</body>
+</html>
